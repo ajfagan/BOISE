@@ -1,0 +1,3 @@
+[submodule "NS-BOISE"]
+	path = NS-BOISE
+	url = https://github.com/ajfagan/NS-BOISE.git
