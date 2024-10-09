@@ -1,0 +1,27 @@
+# Fdb version 4
+["pdflatex"] 1727709545.00698 "main.tex" "main.pdf" "main" 1727709545.13908 2
+  "/nix/store/srny5gxcb9ms5cgkp02ghdc34iy6h75z-texlive-combined-medium-2023-final/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 8021575 1b372cbe22c0fe9e69dd4a9b6debff31 ""
+  "/nix/store/srny5gxcb9ms5cgkp02ghdc34iy6h75z-texlive-combined-medium-2023-final/share/texmf-var/web2c/texmf.cnf" 1 43219 6b1f0fa49894551b3a7070cb56cbe098 ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/fonts/map/fontname/texfonts.map" 1 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/fonts/tfm/public/cm/cmr10.tfm" 1 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/amscls/amsthm.sty" 1 12594 0d51ac3a545aaaa555021326ff22a6cc ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/amsfonts/amsfonts.sty" 1 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/amsfonts/amssymb.sty" 1 13829 94730e64147574077f8ecfea9bb69af4 ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/amsmath/amsbsy.sty" 1 2222 499d61426192c39efd8f410ee1a52b9c ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/amsmath/amsgen.sty" 1 4173 82ac04dfb1256038fad068287fbb4fe6 ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/amsmath/amsmath.sty" 1 88371 d84032c0f422c3d1e282266c01bef237 ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/amsmath/amsopn.sty" 1 4474 b811654f4bf125f11506d13d13647efb ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/amsmath/amstext.sty" 1 2444 0d0c1ee65478277e8015d65b86983da2 ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/base/article.cls" 1 20144 147463a6a579f4597269ef9565205cfe ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/base/fontenc.sty" 1 5119 a04a8b68ab4f6ce800a41f7f8012a10e ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/base/inputenc.sty" 1 5048 425739d70251273bf93e3d51f3c40048 ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/base/size11.clo" 1 8464 59874a3b0776c73e2a138b025d8473dd ""
+  "/nix/store/sxjgkpc9kb1h5ny43hs5ijpwy9yi4ywh-texlive-combined-medium-2023-final-texmfdist/tex/latex/tools/bm.sty" 1 13231 2c742011581e2bf297e33520567d9464 ""
+  "bbm.sty" 0 -1 0 ""
+  "main.aux" 1727709543.40595 12843 861d256faf35d733613062fe4fd9a589 "pdflatex"
+  "main.tex" 1727709531.21383 78875 40e91f0037fda56ac371cb734fb3154e ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)

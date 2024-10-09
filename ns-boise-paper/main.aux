@@ -1,0 +1,88 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{clemons_use_2021}
+\citation{zhang_predicting_2019}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{yu_bayes_2022}
+\citation{zhang_predicting_2019}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  {\bf  Informer-based-ranking problem:} A matrix of binary bioactivity data is available (left; red active, yellow inactive). The problem is to first identify a subset of the $n$ compounds as informer compounds that will be evaluated experimentally on new target, and then to prioritize all the compounds for further testing after intermediate data is obtained. \relax }}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:IBR_scheme}{{1}{2}{{\bf Informer-based-ranking problem:} A matrix of binary bioactivity data is available (left; red active, yellow inactive). The problem is to first identify a subset of the $n$ compounds as informer compounds that will be evaluated experimentally on new target, and then to prioritize all the compounds for further testing after intermediate data is obtained. \relax }{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Methodology for BOISE variants}{3}{section.2}\protected@file@percent }
+\newlabel{eq:orig_model_structure}{{1}{3}{Methodology for BOISE variants}{equation.2.1}{}}
+\newlabel{eq:orig_orig_loss}{{2}{3}{Methodology for BOISE variants}{equation.2.2}{}}
+\citation{NIPS2009_chen}
+\newlabel{eq:orig_loss}{{3}{4}{Methodology for BOISE variants}{equation.2.3}{}}
+\newlabel{eq:rank_matrix}{{4}{4}{Methodology for BOISE variants}{equation.2.4}{}}
+\newlabel{eq:new_loss_rank}{{5}{5}{Methodology for BOISE variants}{equation.2.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Block BOISE}{5}{subsection.2.1}\protected@file@percent }
+\newlabel{eq:block_boise_model}{{6}{5}{Block BOISE}{equation.2.6}{}}
+\citation{yu_bayes_2022}
+\citation{quinlan_induction_1986}
+\citation{KL-divergence}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Fast BOISE}{6}{subsection.2.2}\protected@file@percent }
+\newlabel{eq:fast-boise-loss}{{7}{6}{Fast BOISE}{equation.2.7}{}}
+\newlabel{eq:fast_boise_mutual_info}{{8}{6}{Fast BOISE}{equation.2.8}{}}
+\citation{pubchem_bioassay_2017}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Empirical studies}{7}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}FDA data set}{7}{subsection.3.1}\protected@file@percent }
+\citation{fingerprints_rogers_2010}
+\citation{kaufman_finding_2005}
+\citation{Rousseeuw_Silhouettes_1987}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Retrospective analysis}{8}{subsubsection.3.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  {\bf  Comparison of block BOISE, fast BOISE and baseline randomly selected informers when $n_A$ increases}.\relax }}{9}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:roc_nef_compar_block_fast}{{2}{9}{{\bf Comparison of block BOISE, fast BOISE and baseline randomly selected informers when $n_A$ increases}.\relax }{figure.caption.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  {\bf  Computation time of posterior expected loss evaluation in different BOISE variants for 20th informer selection.} The computation time below refers to the evaluation time on HTCondor for one candidate compound during the search of 20th informer. \relax }}{9}{table.caption.3}\protected@file@percent }
+\newlabel{tab:running_time}{{1}{9}{{\bf Computation time of posterior expected loss evaluation in different BOISE variants for 20th informer selection.} The computation time below refers to the evaluation time on HTCondor for one candidate compound during the search of 20th informer. \relax }{table.caption.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Prospective analysis}{9}{subsubsection.3.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  {\bf  Comparison of fast BOISE and randomly selected informers with and without compound clustering $\mathcal  G$ when $n_A$ ranging from $10$ to $200$}.\relax }}{10}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:fast_rand_200_informer}{{3}{10}{{\bf Comparison of fast BOISE and randomly selected informers with and without compound clustering $\mathcal G$ when $n_A$ ranging from $10$ to $200$}.\relax }{figure.caption.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces  {\bf  Summary of $18$ novel targets in prospective analysis}\relax }}{10}{table.caption.5}\protected@file@percent }
+\newlabel{tab:lab_tgt_summary}{{2}{10}{{\bf Summary of $18$ novel targets in prospective analysis}\relax }{table.caption.5}{}}
+\citation{pcba_Ramsundar_2015}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces  {\bf  Number of hits recovered by different BOISE variants in their top 100 ranked compounds on $18$ novel targets using FDA data set.} The novel targets are sorted based on their total number of hits in FDA compounds. The recovery counts of rand-BOISE is the average of $25$ randomly selected informer sets.\relax }}{11}{table.caption.6}\protected@file@percent }
+\newlabel{tab:recovery_counts}{{3}{11}{{\bf Number of hits recovered by different BOISE variants in their top 100 ranked compounds on $18$ novel targets using FDA data set.} The novel targets are sorted based on their total number of hits in FDA compounds. The recovery counts of rand-BOISE is the average of $25$ randomly selected informer sets.\relax }{table.caption.6}{}}
+\citation{Ma_approximate_CRP_2021}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  {\bf  Summary of performances of BOISE variants in prospective analysis.} All methods are applied on $18$ novel targets, with FDA data set as initial bioactivity data $x_0$. The informer set sizes are the same as in retrospective analysis, with $n_A=20$ for original BOISE methods and $n_A = 30$ for block BOISE, fast BOISE and baseline rand-BOISE.\relax }}{12}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:prospective_compar}{{4}{12}{{\bf Summary of performances of BOISE variants in prospective analysis.} All methods are applied on $18$ novel targets, with FDA data set as initial bioactivity data $x_0$. The informer set sizes are the same as in retrospective analysis, with $n_A=20$ for original BOISE methods and $n_A = 30$ for block BOISE, fast BOISE and baseline rand-BOISE.\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}PCBA data set}{12}{subsection.3.2}\protected@file@percent }
+\citation{alnammi_evaluating_2021}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  {\bf  ROCAUC comparison of fast BOISE and randomly selected informers on $30$ test targets from PCBA data set for $n_A = 100, 200, 500$ and $1000$. }\relax }}{13}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:pcba_fast_random_roc}{{5}{13}{{\bf ROCAUC comparison of fast BOISE and randomly selected informers on $30$ test targets from PCBA data set for $n_A = 100, 200, 500$ and $1000$. }\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  {\bf  NEF1 comparison of fast BOISE and randomly selected informers on $30$ test targets from PCBA data set for $n_A = 100, 200, 500$ and $1000$. }\relax }}{14}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:pcba_fast_random_nef}{{6}{14}{{\bf NEF1 comparison of fast BOISE and randomly selected informers on $30$ test targets from PCBA data set for $n_A = 100, 200, 500$ and $1000$. }\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  {\bf  Comparison of fast BOISE and informers using FDA approved drugs on $30$ test targets from PCBA data set.} The informer size of fast BOISE is the same as the number of FDA approved compounds with non-missing values on each test target.\relax }}{14}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:pcba_fast_fda}{{7}{14}{{\bf Comparison of fast BOISE and informers using FDA approved drugs on $30$ test targets from PCBA data set.} The informer size of fast BOISE is the same as the number of FDA approved compounds with non-missing values on each test target.\relax }{figure.caption.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces  {\bf  Prospective comparison between fast BOISE and naive informer set on novel target PriA-SSB}. The informer size $n_A = 253$ is for informer set that consists of FDA-approved drugs, and $n_A = 500, 1000$ is for randomly selected informer sets.\relax }}{15}{table.caption.11}\protected@file@percent }
+\newlabel{tab:pcba_prospective}{{4}{15}{{\bf Prospective comparison between fast BOISE and naive informer set on novel target PriA-SSB}. The informer size $n_A = 253$ is for informer set that consists of FDA-approved drugs, and $n_A = 500, 1000$ is for randomly selected informer sets.\relax }{table.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  {\bf  Adjacency frequencies with approximate CRP clustering on PCBA (left), and a weighted version of the same clustering with weights representing similarity to PriA-SSB (right).} The left plot shows the adjacency frequency from the approximate CRP clustering after rearrangement, where darker color indicates that pair of targets are more frequently grouped together and blocks indicate groups of targets that are highly correlated. The right plot shows a weighted adjacency frequency of the same clustering, where weights are posterior probabilities of each target being grouped with PriA-SSB. The last ``target" (the 103rd column) is a fake target that represents the unknown new cluster that potentially exists but no one belongs to. \relax }}{16}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:pcba_prospective_clustering}{{8}{16}{{\bf Adjacency frequencies with approximate CRP clustering on PCBA (left), and a weighted version of the same clustering with weights representing similarity to PriA-SSB (right).} The left plot shows the adjacency frequency from the approximate CRP clustering after rearrangement, where darker color indicates that pair of targets are more frequently grouped together and blocks indicate groups of targets that are highly correlated. The right plot shows a weighted adjacency frequency of the same clustering, where weights are posterior probabilities of each target being grouped with PriA-SSB. The last ``target" (the 103rd column) is a fake target that represents the unknown new cluster that potentially exists but no one belongs to. \relax }{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{16}{section.4}\protected@file@percent }
+\bibstyle{biom}
+\bibdata{bibliography}
+\bibcite{alnammi_evaluating_2021}{{1}{2021}{{Alnammi et~al.}}{{Alnammi, Liu, Ericksen, Ananiev, Voter, Guo, Keck, Hoffmann, Wildman, and Gitter}}}
+\bibcite{clemons_use_2021}{{2}{2021}{{Clemons et~al.}}{{Clemons, Bittker, Wagner, Hands, Dančík, Schreiber, Choudhary, and Wagner}}}
+\bibcite{kaufman_finding_2005}{{3}{2005}{{Kaufman and Rousseeuw}}{{Kaufman and Rousseeuw}}}
+\bibcite{KL-divergence}{{4}{1951}{{Kullback and Leibler}}{{Kullback and Leibler}}}
+\bibcite{Ma_approximate_CRP_2021}{{5}{2021}{{Ma et~al.}}{{Ma, Korthauer, Kendziorski, and Newton}}}
+\bibcite{quinlan_induction_1986}{{6}{1986}{{Quinlan}}{{Quinlan}}}
+\bibcite{pcba_Ramsundar_2015}{{7}{2015}{{Ramsundar et~al.}}{{Ramsundar, Kearnes, Riley, Webster, Konerding, and Pande}}}
+\bibcite{fingerprints_rogers_2010}{{8}{2010}{{Rogers and Hahn}}{{Rogers and Hahn}}}
+\bibcite{Rousseeuw_Silhouettes_1987}{{9}{1987}{{Rousseeuw}}{{Rousseeuw}}}
+\bibcite{pubchem_bioassay_2017}{{10}{2016}{{Wang et~al.}}{{Wang, Bryant, Cheng, Wang, Gindulyte, Shoemaker, Thiessen, He, and Zhang}}}
+\bibcite{yu_bayes_2022}{{11}{2022}{{Yu et~al.}}{{Yu, Ericksen, Gitter, and Newton}}}
+\bibcite{zhang_predicting_2019}{{12}{2019}{{Zhang et~al.}}{{Zhang, Ericksen, Lee, Ananiev, Wlodarchak, Yu, Mitchell, Gitter, Wright, Hoffmann, Wildman, and Newton}}}
+\gdef \@abspage@last{20}
