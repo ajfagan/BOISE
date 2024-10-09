@@ -1,0 +1,63 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Alnammi, Liu, Ericksen, Ananiev, Voter, Guo, Keck, Hoffmann, Wildman, and Gitter}{Alnammi et~al.}{2021}]{alnammi_evaluating_2021}
+Alnammi, M., Liu, S., Ericksen, S.~S., Ananiev, G.~E., Voter, A.~F., Guo, S., Keck, J.~L., Hoffmann, F.~M., Wildman, S.~A., and Gitter, A. (2021).
+\newblock Evaluating scalable supervised learning for synthesize-on-demand chemical libraries.
+\newblock 10.26434/chemrxiv-2021-fg8z9.
+
+\bibitem[\protect\citeauthoryear{Clemons, Bittker, Wagner, Hands, Dančík, Schreiber, Choudhary, and Wagner}{Clemons et~al.}{2021}]{clemons_use_2021}
+Clemons, P.~A., Bittker, J.~A., Wagner, F.~F., Hands, A., Dančík, V., Schreiber, S.~L., Choudhary, A., and Wagner, B.~K. (2021).
+\newblock The {Use} of {Informer} {Sets} in {Screening}: {Perspectives} on an {Efficient} {Strategy} to {Identify} {New} {Probes}.
+\newblock {\em SLAS DISCOVERY: Advancing the Science of Drug Discovery} {\bf 26,} 855--861.
+
+\bibitem[\protect\citeauthoryear{Kaufman and Rousseeuw}{Kaufman and Rousseeuw}{2005}]{kaufman_finding_2005}
+Kaufman, L. and Rousseeuw, P.~J. (2005).
+\newblock {\em Finding groups in data: an introduction to cluster analysis}.
+\newblock Wiley series in probability and mathematical statistics. Wiley, Hoboken, N.J.
+
+\bibitem[\protect\citeauthoryear{Kullback and Leibler}{Kullback and Leibler}{1951}]{KL-divergence}
+Kullback, S. and Leibler, R.~A. (1951).
+\newblock {On Information and Sufficiency}.
+\newblock {\em The Annals of Mathematical Statistics} {\bf 22,} 79 -- 86.
+
+\bibitem[\protect\citeauthoryear{Ma, Korthauer, Kendziorski, and Newton}{Ma et~al.}{2021}]{Ma_approximate_CRP_2021}
+Ma, X., Korthauer, K., Kendziorski, C., and Newton, M.~A. (2021).
+\newblock {A compositional model to assess expression changes from single-cell RNA-seq data}.
+\newblock {\em The Annals of Applied Statistics} {\bf 15,} 880 -- 901.
+
+\bibitem[\protect\citeauthoryear{Quinlan}{Quinlan}{1986}]{quinlan_induction_1986}
+Quinlan, J.~R. (1986).
+\newblock Induction of decision trees.
+\newblock {\em Machine Learning} {\bf 1,} 81--106.
+
+\bibitem[\protect\citeauthoryear{Ramsundar, Kearnes, Riley, Webster, Konerding, and Pande}{Ramsundar et~al.}{2015}]{pcba_Ramsundar_2015}
+Ramsundar, B., Kearnes, S., Riley, P., Webster, D., Konerding, D., and Pande, V. (2015).
+\newblock Massively multitask networks for drug discovery.
+
+\bibitem[\protect\citeauthoryear{Rogers and Hahn}{Rogers and Hahn}{2010}]{fingerprints_rogers_2010}
+Rogers, D. and Hahn, M. (2010).
+\newblock Extended-connectivity fingerprints.
+\newblock {\em Journal of Chemical Information and Modeling} {\bf 50,} 742--754.
+\newblock PMID: 20426451.
+
+\bibitem[\protect\citeauthoryear{Rousseeuw}{Rousseeuw}{1987}]{Rousseeuw_Silhouettes_1987}
+Rousseeuw, P.~J. (1987).
+\newblock Silhouettes: A graphical aid to the interpretation and validation of cluster analysis.
+\newblock {\em Journal of Computational and Applied Mathematics} {\bf 20,} 53--65.
+
+\bibitem[\protect\citeauthoryear{Wang, Bryant, Cheng, Wang, Gindulyte, Shoemaker, Thiessen, He, and Zhang}{Wang et~al.}{2016}]{pubchem_bioassay_2017}
+Wang, Y., Bryant, S.~H., Cheng, T., Wang, J., Gindulyte, A., Shoemaker, B.~A., Thiessen, P.~A., He, S., and Zhang, J. (2016).
+\newblock {PubChem BioAssay: 2017 update}.
+\newblock {\em Nucleic Acids Research} {\bf 45,} D955--D963.
+
+\bibitem[\protect\citeauthoryear{Yu, Ericksen, Gitter, and Newton}{Yu et~al.}{2022}]{yu_bayes_2022}
+Yu, P., Ericksen, S., Gitter, A., and Newton, M.~A. (2022).
+\newblock Bayes optimal informer sets for early-stage drug discovery.
+\newblock {\em Biometrics} {\bf 1-13,} https://doi.org/10.1111/biom.13637.
+
+\bibitem[\protect\citeauthoryear{Zhang, Ericksen, Lee, Ananiev, Wlodarchak, Yu, Mitchell, Gitter, Wright, Hoffmann, Wildman, and Newton}{Zhang et~al.}{2019}]{zhang_predicting_2019}
+Zhang, H., Ericksen, S.~S., Lee, C.-p., Ananiev, G.~E., Wlodarchak, N., Yu, P., Mitchell, J.~C., Gitter, A., Wright, S.~J., Hoffmann, F.~M., Wildman, S.~A., and Newton, M.~A. (2019).
+\newblock Predicting kinase inhibitors using bioactivity matrix derived informer sets.
+\newblock {\em PLOS Computational Biology} {\bf 15,} e1006813.
+
+\end{thebibliography}
